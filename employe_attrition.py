@@ -72,7 +72,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 #drive.mount('/content/drive')
 
-file_path = pd.read_csv('github.com/chrisagunwa/HR-Employee-ttrition.csv')
+file_path = pd.read_csv('github.com/chrisagunwa/employee_attrition/HR-Employee-ttrition.csv')
 data = file_path
 
 data
