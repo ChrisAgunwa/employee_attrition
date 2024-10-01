@@ -50,7 +50,7 @@ The dataset was further analyzed and improved model by Razuki: [https://www.kagg
 ***NOTE : THIS PROJECT BUILT IS ON RAZUKI(sgjustino)'S PROJECT ON KAGGLE***
 """
 
-from google.colab import drive
+#from google.colab import drive
 
 import numpy as np
 import pandas as pd
@@ -70,9 +70,9 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.ensemble import RandomForestClassifier
 
 
-drive.mount('/content/drive')
+#drive.mount('/content/drive')
 
-file_path = pd.read_csv('/content/drive/MyDrive/Kemedatalab/Employee_attrition/HR_Employee_Attrition.csv')
+file_path = pd.read_csv('github.com/chrisagunwa/HR-Employee-ttrition.csv')
 data = file_path
 
 data
